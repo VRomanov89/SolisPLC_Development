@@ -1,0 +1,105 @@
+# REV = 1
+
+# PAC CONTROL TAG DATABASE DUMP
+# ----------------------------------------------------------------
+# NAME :         C:\03. BusinessDev\01. SolisPLC\09. GitHub Code\SolisPLC_Development\GroovEpicPACflow1.idb
+# VERSION :      R10.2a
+# TIME/DATE :    19:14:13 3/18/2020
+# 
+# INSTRUCTIONS : This file gets written with the corresponding IDB file.
+#                It is not read by PAC Control. It may be used by other programs to 
+#                get basic information about the tag database.
+#                
+#                Each tag (e.g. variables, I/O units and points, charts, etc.) is 
+#                listed here. 
+#                
+#                More columns or tag types (e.g. TAG2) may be added in the future.
+#                
+#                
+# BITMASK INFO:  Here is the list of bitmasks used by PAC Control.
+#                More than one bit may be set for a given tag. Currently, the only types
+#                that can have more than one bit set at a time are digital points with 
+#                features (e.g. digital input with counter) or a pointer.
+#                
+#                BITMASK 0
+#                -------------------------------------------
+#                DIN_SMART                        0x40000000
+#                DIN_COUNTER                      0x00000001
+#                DIN_COUNTER_QUADRATURE           0x00000002
+#                DOUT_SMART                       0x10000000
+#                DOUT_TPO                         0x00010000
+#                DIN_ON_PULSE_MEAS                0x00000010
+#                DIN_OFF_PULSE_MEAS               0x00000020
+#                DIN_FREQUENCY                    0x00000040
+#                DIN_PERIOD                       0x00000080
+#                DIN_ON_TIME_TOTALIZER            0x00000100
+#                DIN_OFF_TIME_TOTALIZER           0x00000200
+#                
+#                BITMASK 1
+#                -------------------------------------------
+#                AIN                              0x00000001
+#                AOUT                             0x00000002
+#                PID_LOOP    (mistic)             0x00000200
+#                PID_LOOP_2  (OptoMMP)            0x00000004
+#                DIGITAL_EVENT_REACTION           0x00000008
+#                ANALOG_EVENT_REACTION            0x00000010
+#                EVENT_REACTION_GROUP             0x00000080
+#                CHART                            0x00000100
+#                SERIAL_CHANNEL                   0x00000400
+#                
+#                BITMASK 2
+#                -------------------------------------------
+#                G4EB2                            0x00000001
+#                G4D16R                           0x00000002
+#                G4D32RS                          0x00000004
+#                G4A8R, G4RAX                     0x00000008
+#                B200                             0x00001000
+#                B3000 (digital)                  0x00002000
+#                B3000 (analog)                   0x00004000
+#                B100                             0X00010000
+#                SNAP-BRS                         0X00020000
+#                SNAP-ENET-D64                    0x00040000
+#                SNAP-B3000-ENET, SNAP-ENET-RTC   0x00080000
+#                SNAP-UP1-D64                     0x00100000
+#                SNAP-UP1-ADS                     0x00200000
+#                SNAP-UP1-M64                     0x00400000
+#                SNAP-ENET-S64                    0x00800000
+#                SNAP-PAC-R1                      0x10000000
+#                SNAP-PAC-R2                      0x20000000
+#                Generic memory map device        0x40000000
+#                SNAP-PAC-R1-B                    0x80000000
+#                SNAP-PAC-EB1                     0x00000010
+#                SNAP-PAC-EB2                     0x00000020
+#                SNAP-PAC-SB1                     0x00000100
+#                SNAP-PAC-SB2                     0x00000200
+#                E1                               0x01000000
+#                E2                               0x02000000
+#                GRV-EPIC-PR1                     0x04000000
+# 
+#                BITMASK 3
+#                -------------------------------------------
+#                VARIABLE_INTEGER                 0x00000008
+#                VARIABLE_FLOAT                   0x00000010
+#                VARIABLE_TIMER                   0x00000020
+#                VARIABLE_STRING                  0x00000040
+#                VARIABLE_POINTER                 0x80000000
+#                TABLE_INTEGER                    0x00000100
+#                TABLE_FLOAT                      0x00000200
+#                TABLE_STRING                     0x00000800
+#                TABLE_POINTER                    0x00001000
+#                VARIABLE_UP_TIMER                0X00002000
+#                VARIABLE_INTEGER_64              0X00004000
+#                TABLE_INTEGER_64                 0X00010000
+#                TABLE_NULL                       0X00020000
+#                VARIABLE_STREAM                  0x00040000
+
+
+
+
+#  (Please note that the TAG1 definition may have columns added in the future.
+#   Any new columns will be added to the right of the existing ones.)
+#   This file should be parsed accordingly.)
+
+# TAG1,NAME,ID,BITMASK_0,BITMASK_1,BITMASK_2,BITMASK_3,TABLE_LENGTH,STRING_WIDTH
+
+TAG1,Powerup                                           ,0    ,00000000,00000100,00000000,00000000,0    ,0   
