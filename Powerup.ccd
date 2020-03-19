@@ -1,0 +1,14 @@
+: 0_0
+0 JUMP ;
+: 0_1
+
+1 LINE.NUM
+  &MainProgram   START.T
+  ^ChartStatus @! 
+0 JUMP ;
+T: T0
+DUMMY
+0_0
+0_1
+T;
+&Powerup ' T0 SETTASK

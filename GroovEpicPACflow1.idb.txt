@@ -4,7 +4,7 @@
 # ----------------------------------------------------------------
 # NAME :         C:\03. BusinessDev\01. SolisPLC\09. GitHub Code\SolisPLC_Development\GroovEpicPACflow1.idb
 # VERSION :      R10.2a
-# TIME/DATE :    19:14:13 3/18/2020
+# TIME/DATE :    19:55:46 3/18/2020
 # 
 # INSTRUCTIONS : This file gets written with the corresponding IDB file.
 #                It is not read by PAC Control. It may be used by other programs to 
@@ -102,4 +102,12 @@
 
 # TAG1,NAME,ID,BITMASK_0,BITMASK_1,BITMASK_2,BITMASK_3,TABLE_LENGTH,STRING_WIDTH
 
+TAG1,MainProgram                                       ,1    ,00000000,00000100,00000000,00000000,0    ,0   
 TAG1,Powerup                                           ,0    ,00000000,00000100,00000000,00000000,0    ,0   
+TAG1,groovIO                                           ,0    ,00000000,00000000,04000000,00000000,0    ,0   
+TAG1,Out1                                              ,1    ,10000000,00000000,00000000,00000000,0    ,0   
+TAG1,Out2                                              ,2    ,10000000,00000000,00000000,00000000,0    ,0   
+TAG1,Out3                                              ,3    ,10000000,00000000,00000000,00000000,0    ,0   
+TAG1,Out4                                              ,4    ,10000000,00000000,00000000,00000000,0    ,0   
+TAG1,Start_Button                                      ,0    ,40000000,00000000,00000000,00000000,0    ,0   
+TAG1,ChartStatus                                       ,0    ,00000000,00000000,00000000,00000008,0    ,0   
