@@ -20,9 +20,17 @@ CREATE B.ARRAY
  0 ,
 CREATE P.ARRAY
 ~Out1 ,
+~Out10 ,
+~Out11 ,
+~Out12 ,
 ~Out2 ,
 ~Out3 ,
 ~Out4 ,
+~Out5 ,
+~Out6 ,
+~Out7 ,
+~Out8 ,
+~Out9 ,
 ~Start_Button ,
  0 ,
 CREATE PID.ARRAY

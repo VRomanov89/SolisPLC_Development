@@ -1,55 +1,165 @@
 : 1_0
-0 JUMP ;
-: 1_1
-
-1 LINE.NUM
-  ~Out1   ON
-0 JUMP ;
-: 1_2
-
-1 LINE.NUM
-  100    DELAY
-0 JUMP ;
-: 1_7
-
-1 LINE.NUM
-  ~Out2   ON
-1 JUMP ;
-: 1_10
-
-1 LINE.NUM
-  ~Out1   OFF
-1 JUMP ;
-: 1_11
-
-1 LINE.NUM
-  100    DELAY
--2 JUMP ;
+25 JUMP ;
 : 1_12
 
 1 LINE.NUM
   100    DELAY
-0 JUMP ;
-: 1_13
-
-1 LINE.NUM
-  ~Out2   OFF
-0 JUMP ;
-: 1_14
+1 JUMP ;
+: 1_35
 
 1 LINE.NUM
   100    DELAY
+23 JUMP ;
+: 1_40
+
+1 LINE.NUM
+  ~Out7   ON
+0 JUMP ;
+: 1_41
+
+1 LINE.NUM
+  100    DELAY
+0 JUMP ;
+: 1_45
+
+1 LINE.NUM
+  ~Out7   OFF
+3 JUMP ;
+: 1_46
+
+1 LINE.NUM
+  ~Out8   OFF
+6 JUMP ;
+: 1_49
+
+1 LINE.NUM
+  100    DELAY
+-2 JUMP ;
+: 1_50
+
+1 LINE.NUM
+  ~Out8   ON
+-2 JUMP ;
+: 1_51
+
+1 LINE.NUM
+  100    DELAY
+-2 JUMP ;
+: 1_52
+
+1 LINE.NUM
+  ~Out9   OFF
+14 JUMP ;
+: 1_55
+
+1 LINE.NUM
+  100    DELAY
+-2 JUMP ;
+: 1_56
+
+1 LINE.NUM
+  ~Out9   ON
+-2 JUMP ;
+: 1_57
+
+1 LINE.NUM
+  100    DELAY
+-2 JUMP ;
+: 1_68
+
+1 LINE.NUM
+  100    DELAY
+0 JUMP ;
+: 1_69
+
+1 LINE.NUM
+  ~Out12   ON
+0 JUMP ;
+: 1_70
+
+1 LINE.NUM
+  100    DELAY
+0 JUMP ;
+: 1_73
+
+1 LINE.NUM
+  ~Out12   OFF
+-16 JUMP ;
+: 1_74
+
+1 LINE.NUM
+  100    DELAY
+0 JUMP ;
+: 1_75
+
+1 LINE.NUM
+  ~Out11   ON
+0 JUMP ;
+: 1_76
+
+1 LINE.NUM
+  100    DELAY
+0 JUMP ;
+: 1_79
+
+1 LINE.NUM
+  ~Out11   OFF
 -8 JUMP ;
+: 1_80
+
+1 LINE.NUM
+  ~Out10   OFF
+-5 JUMP ;
+: 1_83
+
+1 LINE.NUM
+  100    DELAY
+-2 JUMP ;
+: 1_84
+
+1 LINE.NUM
+  ~Out10   ON
+-2 JUMP ;
+: 1_85
+
+1 LINE.NUM
+  100    DELAY
+-2 JUMP ;
+: 1_33
+TRUE
+
+1 LINE.NUM
+  ~Start_Button   ?ON
+LAND
+IF -26 ELSE -25 THEN JUMP ;
 T: T1
 DUMMY
 1_0
-1_1
-1_2
-1_7
-1_10
-1_11
 1_12
-1_13
-1_14
+1_35
+1_40
+1_41
+1_45
+1_46
+1_49
+1_50
+1_51
+1_52
+1_55
+1_56
+1_57
+1_68
+1_69
+1_70
+1_73
+1_74
+1_75
+1_76
+1_79
+1_80
+1_83
+1_84
+1_85
+1_33
 T;
 &MainProgram ' T1 SETTASK
