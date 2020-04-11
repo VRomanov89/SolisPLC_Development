@@ -1,0 +1,54 @@
+CREATE T.ARRAY
+&MainProgram ,
+&Powerup ,
+ 0 ,
+CREATE V.ARRAY
+^CurrentChart ,
+*_HSV_SEMA ,
+*_HSV_TEMP ,
+ 0 ,
+CREATE TI.ARRAY
+ 0 ,
+CREATE PTR.ARRAY
+ 0 ,
+CREATE TA.ARRAY 
+ 0 ,
+CREATE PTRTABLE.ARRAY 
+ 0 ,
+CREATE B.ARRAY
+%groovEPIC ,
+ 0 ,
+CREATE P.ARRAY
+~Out10 ,
+~Out11 ,
+~Out12 ,
+~Out7 ,
+~Out8 ,
+~Out9 ,
+~StartButton ,
+ 0 ,
+CREATE PID.ARRAY
+ 0 ,
+CREATE E/R.ARRAY
+ 0 ,
+CREATE E/RGROUP.ARRAY
+ 0 ,
+: CONFIG_PORTS
+;
+: W_INIT_IO
+CONFIG_PORTS
+" %groovEPIC  (1/1)" *_HSV_INIT_IO $MOVE 0 ^_HNV_INIT_IO @!
+%groovEPIC ENABLE
+ " Initializing variables" *_HSV_INIT_IO $MOVE
+0 ^CurrentChart @!
+ " " *_HSV_INIT_IO $MOVE
+;
+T: T_INIT_IO
+W_INIT_IO
+&Powerup START.T DROP
+T;
+&_INIT_IO ' T_INIT_IO  SETTASK
+   : _RUN
+   CLEARERRORS
+   &_INIT_IO START.T DROP
+   ;

@@ -1,165 +1,165 @@
 : 1_0
 25 JUMP ;
-: 1_12
+: 1_3
 
 1 LINE.NUM
-  100    DELAY
-1 JUMP ;
-: 1_35
-
-1 LINE.NUM
-  100    DELAY
-23 JUMP ;
-: 1_40
+  500    DELAY
+0 JUMP ;
+: 1_5
 
 1 LINE.NUM
   ~Out7   ON
 0 JUMP ;
-: 1_41
+: 1_7
 
 1 LINE.NUM
-  100    DELAY
+  500    DELAY
 0 JUMP ;
-: 1_45
+: 1_9
 
 1 LINE.NUM
   ~Out7   OFF
 3 JUMP ;
-: 1_46
+: 1_12
 
 1 LINE.NUM
   ~Out8   OFF
 6 JUMP ;
-: 1_49
+: 1_14
 
 1 LINE.NUM
-  100    DELAY
+  500    DELAY
 -2 JUMP ;
-: 1_50
+: 1_16
 
 1 LINE.NUM
   ~Out8   ON
 -2 JUMP ;
-: 1_51
+: 1_17
 
 1 LINE.NUM
-  100    DELAY
+  500    DELAY
 -2 JUMP ;
-: 1_52
+: 1_19
 
 1 LINE.NUM
   ~Out9   OFF
-14 JUMP ;
-: 1_55
+6 JUMP ;
+: 1_21
 
 1 LINE.NUM
-  100    DELAY
+  500    DELAY
 -2 JUMP ;
-: 1_56
+: 1_23
 
 1 LINE.NUM
   ~Out9   ON
 -2 JUMP ;
-: 1_57
+: 1_24
 
 1 LINE.NUM
-  100    DELAY
+  500    DELAY
 -2 JUMP ;
-: 1_68
-
-1 LINE.NUM
-  100    DELAY
-0 JUMP ;
-: 1_69
-
-1 LINE.NUM
-  ~Out12   ON
-0 JUMP ;
-: 1_70
-
-1 LINE.NUM
-  100    DELAY
-0 JUMP ;
-: 1_73
-
-1 LINE.NUM
-  ~Out12   OFF
--16 JUMP ;
-: 1_74
-
-1 LINE.NUM
-  100    DELAY
-0 JUMP ;
-: 1_75
-
-1 LINE.NUM
-  ~Out11   ON
-0 JUMP ;
-: 1_76
-
-1 LINE.NUM
-  100    DELAY
-0 JUMP ;
-: 1_79
-
-1 LINE.NUM
-  ~Out11   OFF
--8 JUMP ;
-: 1_80
+: 1_26
 
 1 LINE.NUM
   ~Out10   OFF
--5 JUMP ;
-: 1_83
+6 JUMP ;
+: 1_28
 
 1 LINE.NUM
-  100    DELAY
+  500    DELAY
 -2 JUMP ;
-: 1_84
+: 1_30
 
 1 LINE.NUM
   ~Out10   ON
 -2 JUMP ;
-: 1_85
+: 1_31
 
 1 LINE.NUM
-  100    DELAY
+  500    DELAY
 -2 JUMP ;
 : 1_33
+
+1 LINE.NUM
+  ~Out11   OFF
+6 JUMP ;
+: 1_35
+
+1 LINE.NUM
+  500    DELAY
+-2 JUMP ;
+: 1_37
+
+1 LINE.NUM
+  ~Out11   ON
+-2 JUMP ;
+: 1_38
+
+1 LINE.NUM
+  500    DELAY
+-2 JUMP ;
+: 1_40
+
+1 LINE.NUM
+  ~Out12   OFF
+4 JUMP ;
+: 1_42
+
+1 LINE.NUM
+  500    DELAY
+-2 JUMP ;
+: 1_44
+
+1 LINE.NUM
+  ~Out12   ON
+-2 JUMP ;
+: 1_45
+
+1 LINE.NUM
+  500    DELAY
+-2 JUMP ;
+: 1_52
+
+1 LINE.NUM
+  10    DELAY
+0 JUMP ;
+: 1_1
 TRUE
 
 1 LINE.NUM
-  ~Start_Button   ?ON
+  ~StartButton   ?ON
 LAND
-IF -26 ELSE -25 THEN JUMP ;
+IF -26 ELSE -2 THEN JUMP ;
 T: T1
 DUMMY
 1_0
+1_3
+1_5
+1_7
+1_9
 1_12
-1_35
-1_40
-1_41
-1_45
-1_46
-1_49
-1_50
-1_51
-1_52
-1_55
-1_56
-1_57
-1_68
-1_69
-1_70
-1_73
-1_74
-1_75
-1_76
-1_79
-1_80
-1_83
-1_84
-1_85
+1_14
+1_16
+1_17
+1_19
+1_21
+1_23
+1_24
+1_26
+1_28
+1_30
+1_31
 1_33
+1_35
+1_37
+1_38
+1_40
+1_42
+1_44
+1_45
+1_52
+1_1
 T;
 &MainProgram ' T1 SETTASK
