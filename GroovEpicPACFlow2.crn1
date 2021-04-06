@@ -5,3 +5,4 @@ _END NEW $$$.RUN
 1024 0 $VAR *_HSV_TEMP 
 200 0 $VAR *_HSV_INIT_IO 
 0 IVAR ^_HNV_INIT_IO 
+298 19 0 $TABLE {stPrivateListOfStrategyTags 

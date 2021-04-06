@@ -129,7 +129,7 @@
 TRUE
 
 1 LINE.NUM
-  ~StartButton   ?ON
+  ~IN1_0   ?ON
 LAND
 IF -26 ELSE -2 THEN JUMP ;
 T: T1

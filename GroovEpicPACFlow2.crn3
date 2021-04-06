@@ -4,6 +4,7 @@ CREATE T.ARRAY
  0 ,
 CREATE V.ARRAY
 ^CurrentChart ,
+^Test1 ,
 *_HSV_SEMA ,
 *_HSV_TEMP ,
  0 ,
@@ -19,13 +20,309 @@ CREATE B.ARRAY
 %groovEPIC ,
  0 ,
 CREATE P.ARRAY
+~IN1_0 ,
+~IN1_1 ,
+~IN1_2 ,
+~IN1_2_0400 ,
+~IN1_2_0401 ,
+~IN1_2_0402 ,
+~IN1_2_0403 ,
+~IN1_2_0404 ,
+~IN1_2_0405 ,
+~IN1_2_0406 ,
+~IN1_2_0407 ,
+~IN1_2_0408 ,
+~IN1_2_0409 ,
+~IN1_2_0410 ,
+~IN1_2_0411 ,
+~IN1_2_0412 ,
+~IN1_2_0413 ,
+~IN1_2_0414 ,
+~IN1_2_0415 ,
+~IN1_2_0416 ,
+~IN1_2_0417 ,
+~IN1_2_0418 ,
+~IN1_2_0419 ,
+~IN1_2_0420 ,
+~IN1_2_0421 ,
+~IN1_2_0422 ,
+~IN1_2_0423 ,
+~IN1_2_0500 ,
+~IN1_2_0501 ,
+~IN1_2_0502 ,
+~IN1_2_0503 ,
+~IN1_2_0504 ,
+~IN1_2_0505 ,
+~IN1_2_0506 ,
+~IN1_2_0507 ,
+~IN1_2_0508 ,
+~IN1_2_0509 ,
+~IN1_2_0510 ,
+~IN1_2_0511 ,
+~IN1_2_0512 ,
+~IN1_2_0513 ,
+~IN1_2_0514 ,
+~IN1_2_0515 ,
+~IN1_2_0516 ,
+~IN1_2_0517 ,
+~IN1_2_0518 ,
+~IN1_2_0519 ,
+~IN1_2_0520 ,
+~IN1_2_0521 ,
+~IN1_2_0522 ,
+~IN1_2_0523 ,
+~IN1_2_0600 ,
+~IN1_2_0601 ,
+~IN1_2_0602 ,
+~IN1_2_0603 ,
+~IN1_2_0604 ,
+~IN1_2_0605 ,
+~IN1_2_0606 ,
+~IN1_2_0607 ,
+~IN1_2_0608 ,
+~IN1_2_0609 ,
+~IN1_2_0610 ,
+~IN1_2_0611 ,
+~IN1_2_0612 ,
+~IN1_2_0613 ,
+~IN1_2_0614 ,
+~IN1_2_0615 ,
+~IN1_2_0616 ,
+~IN1_2_0617 ,
+~IN1_2_0618 ,
+~IN1_2_0619 ,
+~IN1_2_0620 ,
+~IN1_2_0621 ,
+~IN1_2_0622 ,
+~IN1_2_0623 ,
+~IN1_2_0700 ,
+~IN1_2_0701 ,
+~IN1_2_0702 ,
+~IN1_2_0703 ,
+~IN1_2_0704 ,
+~IN1_2_0705 ,
+~IN1_2_0706 ,
+~IN1_2_0707 ,
+~IN1_2_0708 ,
+~IN1_2_0709 ,
+~IN1_2_0710 ,
+~IN1_2_0711 ,
+~IN1_2_0712 ,
+~IN1_2_0713 ,
+~IN1_2_0714 ,
+~IN1_2_0715 ,
+~IN1_2_0716 ,
+~IN1_2_0717 ,
+~IN1_2_0718 ,
+~IN1_2_0719 ,
+~IN1_2_0720 ,
+~IN1_2_0721 ,
+~IN1_2_0722 ,
+~IN1_2_0723 ,
+~IN1_2_0800 ,
+~IN1_2_0801 ,
+~IN1_2_0802 ,
+~IN1_2_0803 ,
+~IN1_2_0804 ,
+~IN1_2_0805 ,
+~IN1_2_0806 ,
+~IN1_2_0807 ,
+~IN1_2_0808 ,
+~IN1_2_0809 ,
+~IN1_2_0810 ,
+~IN1_2_0811 ,
+~IN1_2_0812 ,
+~IN1_2_0813 ,
+~IN1_2_0814 ,
+~IN1_2_0815 ,
+~IN1_2_0816 ,
+~IN1_2_0817 ,
+~IN1_2_0818 ,
+~IN1_2_0819 ,
+~IN1_2_0820 ,
+~IN1_2_0821 ,
+~IN1_2_0822 ,
+~IN1_2_0823 ,
+~IN1_2_0900 ,
+~IN1_2_0901 ,
+~IN1_2_0902 ,
+~IN1_2_0903 ,
+~IN1_2_0904 ,
+~IN1_2_0905 ,
+~IN1_2_0906 ,
+~IN1_2_0907 ,
+~IN1_2_0908 ,
+~IN1_2_0909 ,
+~IN1_2_0910 ,
+~IN1_2_0911 ,
+~IN1_2_0912 ,
+~IN1_2_0913 ,
+~IN1_2_0914 ,
+~IN1_2_0915 ,
+~IN1_2_0916 ,
+~IN1_2_0917 ,
+~IN1_2_0918 ,
+~IN1_2_0919 ,
+~IN1_2_0920 ,
+~IN1_2_0921 ,
+~IN1_2_0922 ,
+~IN1_2_0923 ,
+~IN1_2_1000 ,
+~IN1_2_1001 ,
+~IN1_2_1002 ,
+~IN1_2_1003 ,
+~IN1_2_1004 ,
+~IN1_2_1005 ,
+~IN1_2_1006 ,
+~IN1_2_1007 ,
+~IN1_2_1008 ,
+~IN1_2_1009 ,
+~IN1_2_1010 ,
+~IN1_2_1011 ,
+~IN1_2_1012 ,
+~IN1_2_1013 ,
+~IN1_2_1014 ,
+~IN1_2_1015 ,
+~IN1_2_1016 ,
+~IN1_2_1017 ,
+~IN1_2_1018 ,
+~IN1_2_1019 ,
+~IN1_2_1020 ,
+~IN1_2_1021 ,
+~IN1_2_1022 ,
+~IN1_2_1023 ,
+~IN1_2_1100 ,
+~IN1_2_1101 ,
+~IN1_2_1102 ,
+~IN1_2_1103 ,
+~IN1_2_1104 ,
+~IN1_2_1105 ,
+~IN1_2_1106 ,
+~IN1_2_1107 ,
+~IN1_2_1108 ,
+~IN1_2_1109 ,
+~IN1_2_1110 ,
+~IN1_2_1111 ,
+~IN1_2_1112 ,
+~IN1_2_1113 ,
+~IN1_2_1114 ,
+~IN1_2_1115 ,
+~IN1_2_1116 ,
+~IN1_2_1117 ,
+~IN1_2_1118 ,
+~IN1_2_1119 ,
+~IN1_2_1120 ,
+~IN1_2_1121 ,
+~IN1_2_1122 ,
+~IN1_2_1123 ,
+~IN1_2_1200 ,
+~IN1_2_1201 ,
+~IN1_2_1202 ,
+~IN1_2_1203 ,
+~IN1_2_1204 ,
+~IN1_2_1205 ,
+~IN1_2_1206 ,
+~IN1_2_1207 ,
+~IN1_2_1208 ,
+~IN1_2_1209 ,
+~IN1_2_1210 ,
+~IN1_2_1211 ,
+~IN1_2_1212 ,
+~IN1_2_1213 ,
+~IN1_2_1214 ,
+~IN1_2_1215 ,
+~IN1_2_1216 ,
+~IN1_2_1217 ,
+~IN1_2_1218 ,
+~IN1_2_1219 ,
+~IN1_2_1220 ,
+~IN1_2_1221 ,
+~IN1_2_1222 ,
+~IN1_2_1223 ,
+~IN1_2_1300 ,
+~IN1_2_1301 ,
+~IN1_2_1302 ,
+~IN1_2_1303 ,
+~IN1_2_1304 ,
+~IN1_2_1305 ,
+~IN1_2_1306 ,
+~IN1_2_1307 ,
+~IN1_2_1308 ,
+~IN1_2_1309 ,
+~IN1_2_1310 ,
+~IN1_2_1311 ,
+~IN1_2_1312 ,
+~IN1_2_1313 ,
+~IN1_2_1314 ,
+~IN1_2_1315 ,
+~IN1_2_1316 ,
+~IN1_2_1317 ,
+~IN1_2_1318 ,
+~IN1_2_1319 ,
+~IN1_2_1320 ,
+~IN1_2_1321 ,
+~IN1_2_1322 ,
+~IN1_2_1323 ,
+~IN1_2_1400 ,
+~IN1_2_1401 ,
+~IN1_2_1402 ,
+~IN1_2_1403 ,
+~IN1_2_1404 ,
+~IN1_2_1405 ,
+~IN1_2_1406 ,
+~IN1_2_1407 ,
+~IN1_2_1408 ,
+~IN1_2_1409 ,
+~IN1_2_1410 ,
+~IN1_2_1411 ,
+~IN1_2_1412 ,
+~IN1_2_1413 ,
+~IN1_2_1414 ,
+~IN1_2_1415 ,
+~IN1_2_1416 ,
+~IN1_2_1417 ,
+~IN1_2_1418 ,
+~IN1_2_1419 ,
+~IN1_2_1420 ,
+~IN1_2_1421 ,
+~IN1_2_1422 ,
+~IN1_2_1423 ,
+~IN1_2_1500 ,
+~IN1_2_1501 ,
+~IN1_2_1502 ,
+~IN1_2_1503 ,
+~IN1_2_1504 ,
+~IN1_2_1505 ,
+~IN1_2_1506 ,
+~IN1_2_1507 ,
+~IN1_2_1508 ,
+~IN1_2_1509 ,
+~IN1_2_1510 ,
+~IN1_2_1511 ,
+~IN1_2_1512 ,
+~IN1_2_1513 ,
+~IN1_2_1514 ,
+~IN1_2_1515 ,
+~IN1_2_1516 ,
+~IN1_2_1517 ,
+~IN1_2_1518 ,
+~IN1_2_1519 ,
+~IN1_2_1520 ,
+~IN1_2_1521 ,
+~IN1_2_1522 ,
+~IN1_2_1523 ,
+~IN1_3 ,
+~IN1_4 ,
+~IN1_5 ,
+~IN1_6 ,
+~IN1_7 ,
 ~Out10 ,
 ~Out11 ,
 ~Out12 ,
 ~Out7 ,
 ~Out8 ,
 ~Out9 ,
-~StartButton ,
+~DistanceSensor ,
  0 ,
 CREATE PID.ARRAY
  0 ,
@@ -41,6 +338,304 @@ CONFIG_PORTS
 %groovEPIC ENABLE
  " Initializing variables" *_HSV_INIT_IO $MOVE
 0 ^CurrentChart @!
+" i32.Test1" 297 {stPrivateListOfStrategyTags $TABLE@ $MOVE
+" aio.DistanceSensor" 296 {stPrivateListOfStrategyTags $TABLE@ $MOVE
+" dio.IN1_7.rw" 295 {stPrivateListOfStrategyTags $TABLE@ $MOVE
+" dio.IN1_6.rw" 294 {stPrivateListOfStrategyTags $TABLE@ $MOVE
+" dio.IN1_5.rw" 293 {stPrivateListOfStrategyTags $TABLE@ $MOVE
+" dio.IN1_4.rw" 292 {stPrivateListOfStrategyTags $TABLE@ $MOVE
+" dio.IN1_3.rw" 291 {stPrivateListOfStrategyTags $TABLE@ $MOVE
+" dio.IN1_2_1523.rw" 290 {stPrivateListOfStrategyTags $TABLE@ $MOVE
+" dio.IN1_2_1522.rw" 289 {stPrivateListOfStrategyTags $TABLE@ $MOVE
+" dio.IN1_2_1521.rw" 288 {stPrivateListOfStrategyTags $TABLE@ $MOVE
+" dio.IN1_2_1520.rw" 287 {stPrivateListOfStrategyTags $TABLE@ $MOVE
+" dio.IN1_2_1519.rw" 286 {stPrivateListOfStrategyTags $TABLE@ $MOVE
+" dio.IN1_2_1518.rw" 285 {stPrivateListOfStrategyTags $TABLE@ $MOVE
+" dio.IN1_2_1517.rw" 284 {stPrivateListOfStrategyTags $TABLE@ $MOVE
+" dio.IN1_2_1516.rw" 283 {stPrivateListOfStrategyTags $TABLE@ $MOVE
+" dio.IN1_2_1515.rw" 282 {stPrivateListOfStrategyTags $TABLE@ $MOVE
+" dio.IN1_2_1514.rw" 281 {stPrivateListOfStrategyTags $TABLE@ $MOVE
+" dio.IN1_2_1513.rw" 280 {stPrivateListOfStrategyTags $TABLE@ $MOVE
+" dio.IN1_2_1512.rw" 279 {stPrivateListOfStrategyTags $TABLE@ $MOVE
+" dio.IN1_2_1511.rw" 278 {stPrivateListOfStrategyTags $TABLE@ $MOVE
+" dio.IN1_2_1510.rw" 277 {stPrivateListOfStrategyTags $TABLE@ $MOVE
+" dio.IN1_2_1509.rw" 276 {stPrivateListOfStrategyTags $TABLE@ $MOVE
+" dio.IN1_2_1508.rw" 275 {stPrivateListOfStrategyTags $TABLE@ $MOVE
+" dio.IN1_2_1507.rw" 274 {stPrivateListOfStrategyTags $TABLE@ $MOVE
+" dio.IN1_2_1506.rw" 273 {stPrivateListOfStrategyTags $TABLE@ $MOVE
+" dio.IN1_2_1505.rw" 272 {stPrivateListOfStrategyTags $TABLE@ $MOVE
+" dio.IN1_2_1504.rw" 271 {stPrivateListOfStrategyTags $TABLE@ $MOVE
+" dio.IN1_2_1503.rw" 270 {stPrivateListOfStrategyTags $TABLE@ $MOVE
+" dio.IN1_2_1502.rw" 269 {stPrivateListOfStrategyTags $TABLE@ $MOVE
+" dio.IN1_2_1501.rw" 268 {stPrivateListOfStrategyTags $TABLE@ $MOVE
+" dio.IN1_2_1500.rw" 267 {stPrivateListOfStrategyTags $TABLE@ $MOVE
+" dio.IN1_2_1423.rw" 266 {stPrivateListOfStrategyTags $TABLE@ $MOVE
+" dio.IN1_2_1422.rw" 265 {stPrivateListOfStrategyTags $TABLE@ $MOVE
+" dio.IN1_2_1421.rw" 264 {stPrivateListOfStrategyTags $TABLE@ $MOVE
+" dio.IN1_2_1420.rw" 263 {stPrivateListOfStrategyTags $TABLE@ $MOVE
+" dio.IN1_2_1419.rw" 262 {stPrivateListOfStrategyTags $TABLE@ $MOVE
+" dio.IN1_2_1418.rw" 261 {stPrivateListOfStrategyTags $TABLE@ $MOVE
+" dio.IN1_2_1417.rw" 260 {stPrivateListOfStrategyTags $TABLE@ $MOVE
+" dio.IN1_2_1416.rw" 259 {stPrivateListOfStrategyTags $TABLE@ $MOVE
+" dio.IN1_2_1415.rw" 258 {stPrivateListOfStrategyTags $TABLE@ $MOVE
+" dio.IN1_2_1414.rw" 257 {stPrivateListOfStrategyTags $TABLE@ $MOVE
+" dio.IN1_2_1413.rw" 256 {stPrivateListOfStrategyTags $TABLE@ $MOVE
+" dio.IN1_2_1412.rw" 255 {stPrivateListOfStrategyTags $TABLE@ $MOVE
+" dio.IN1_2_1411.rw" 254 {stPrivateListOfStrategyTags $TABLE@ $MOVE
+" dio.IN1_2_1410.rw" 253 {stPrivateListOfStrategyTags $TABLE@ $MOVE
+" dio.IN1_2_1409.rw" 252 {stPrivateListOfStrategyTags $TABLE@ $MOVE
+" dio.IN1_2_1408.rw" 251 {stPrivateListOfStrategyTags $TABLE@ $MOVE
+" dio.IN1_2_1407.rw" 250 {stPrivateListOfStrategyTags $TABLE@ $MOVE
+" dio.IN1_2_1406.rw" 249 {stPrivateListOfStrategyTags $TABLE@ $MOVE
+" dio.IN1_2_1405.rw" 248 {stPrivateListOfStrategyTags $TABLE@ $MOVE
+" dio.IN1_2_1404.rw" 247 {stPrivateListOfStrategyTags $TABLE@ $MOVE
+" dio.IN1_2_1403.rw" 246 {stPrivateListOfStrategyTags $TABLE@ $MOVE
+" dio.IN1_2_1402.rw" 245 {stPrivateListOfStrategyTags $TABLE@ $MOVE
+" dio.IN1_2_1401.rw" 244 {stPrivateListOfStrategyTags $TABLE@ $MOVE
+" dio.IN1_2_1400.rw" 243 {stPrivateListOfStrategyTags $TABLE@ $MOVE
+" dio.IN1_2_1323.rw" 242 {stPrivateListOfStrategyTags $TABLE@ $MOVE
+" dio.IN1_2_1322.rw" 241 {stPrivateListOfStrategyTags $TABLE@ $MOVE
+" dio.IN1_2_1321.rw" 240 {stPrivateListOfStrategyTags $TABLE@ $MOVE
+" dio.IN1_2_1320.rw" 239 {stPrivateListOfStrategyTags $TABLE@ $MOVE
+" dio.IN1_2_1319.rw" 238 {stPrivateListOfStrategyTags $TABLE@ $MOVE
+" dio.IN1_2_1318.rw" 237 {stPrivateListOfStrategyTags $TABLE@ $MOVE
+" dio.IN1_2_1317.rw" 236 {stPrivateListOfStrategyTags $TABLE@ $MOVE
+" dio.IN1_2_1316.rw" 235 {stPrivateListOfStrategyTags $TABLE@ $MOVE
+" dio.IN1_2_1315.rw" 234 {stPrivateListOfStrategyTags $TABLE@ $MOVE
+" dio.IN1_2_1314.rw" 233 {stPrivateListOfStrategyTags $TABLE@ $MOVE
+" dio.IN1_2_1313.rw" 232 {stPrivateListOfStrategyTags $TABLE@ $MOVE
+" dio.IN1_2_1312.rw" 231 {stPrivateListOfStrategyTags $TABLE@ $MOVE
+" dio.IN1_2_1311.rw" 230 {stPrivateListOfStrategyTags $TABLE@ $MOVE
+" dio.IN1_2_1310.rw" 229 {stPrivateListOfStrategyTags $TABLE@ $MOVE
+" dio.IN1_2_1309.rw" 228 {stPrivateListOfStrategyTags $TABLE@ $MOVE
+" dio.IN1_2_1308.rw" 227 {stPrivateListOfStrategyTags $TABLE@ $MOVE
+" dio.IN1_2_1307.rw" 226 {stPrivateListOfStrategyTags $TABLE@ $MOVE
+" dio.IN1_2_1306.rw" 225 {stPrivateListOfStrategyTags $TABLE@ $MOVE
+" dio.IN1_2_1305.rw" 224 {stPrivateListOfStrategyTags $TABLE@ $MOVE
+" dio.IN1_2_1304.rw" 223 {stPrivateListOfStrategyTags $TABLE@ $MOVE
+" dio.IN1_2_1303.rw" 222 {stPrivateListOfStrategyTags $TABLE@ $MOVE
+" dio.IN1_2_1302.rw" 221 {stPrivateListOfStrategyTags $TABLE@ $MOVE
+" dio.IN1_2_1301.rw" 220 {stPrivateListOfStrategyTags $TABLE@ $MOVE
+" dio.IN1_2_1300.rw" 219 {stPrivateListOfStrategyTags $TABLE@ $MOVE
+" dio.IN1_2_1223.rw" 218 {stPrivateListOfStrategyTags $TABLE@ $MOVE
+" dio.IN1_2_1222.rw" 217 {stPrivateListOfStrategyTags $TABLE@ $MOVE
+" dio.IN1_2_1221.rw" 216 {stPrivateListOfStrategyTags $TABLE@ $MOVE
+" dio.IN1_2_1220.rw" 215 {stPrivateListOfStrategyTags $TABLE@ $MOVE
+" dio.IN1_2_1219.rw" 214 {stPrivateListOfStrategyTags $TABLE@ $MOVE
+" dio.IN1_2_1218.rw" 213 {stPrivateListOfStrategyTags $TABLE@ $MOVE
+" dio.IN1_2_1217.rw" 212 {stPrivateListOfStrategyTags $TABLE@ $MOVE
+" dio.IN1_2_1216.rw" 211 {stPrivateListOfStrategyTags $TABLE@ $MOVE
+" dio.IN1_2_1215.rw" 210 {stPrivateListOfStrategyTags $TABLE@ $MOVE
+" dio.IN1_2_1214.rw" 209 {stPrivateListOfStrategyTags $TABLE@ $MOVE
+" dio.IN1_2_1213.rw" 208 {stPrivateListOfStrategyTags $TABLE@ $MOVE
+" dio.IN1_2_1212.rw" 207 {stPrivateListOfStrategyTags $TABLE@ $MOVE
+" dio.IN1_2_1211.rw" 206 {stPrivateListOfStrategyTags $TABLE@ $MOVE
+" dio.IN1_2_1210.rw" 205 {stPrivateListOfStrategyTags $TABLE@ $MOVE
+" dio.IN1_2_1209.rw" 204 {stPrivateListOfStrategyTags $TABLE@ $MOVE
+" dio.IN1_2_1208.rw" 203 {stPrivateListOfStrategyTags $TABLE@ $MOVE
+" dio.IN1_2_1207.rw" 202 {stPrivateListOfStrategyTags $TABLE@ $MOVE
+" dio.IN1_2_1206.rw" 201 {stPrivateListOfStrategyTags $TABLE@ $MOVE
+" dio.IN1_2_1205.rw" 200 {stPrivateListOfStrategyTags $TABLE@ $MOVE
+" dio.IN1_2_1204.rw" 199 {stPrivateListOfStrategyTags $TABLE@ $MOVE
+" dio.IN1_2_1203.rw" 198 {stPrivateListOfStrategyTags $TABLE@ $MOVE
+" dio.IN1_2_1202.rw" 197 {stPrivateListOfStrategyTags $TABLE@ $MOVE
+" dio.IN1_2_1201.rw" 196 {stPrivateListOfStrategyTags $TABLE@ $MOVE
+" dio.IN1_2_1200.rw" 195 {stPrivateListOfStrategyTags $TABLE@ $MOVE
+" dio.IN1_2_1123.rw" 194 {stPrivateListOfStrategyTags $TABLE@ $MOVE
+" dio.IN1_2_1122.rw" 193 {stPrivateListOfStrategyTags $TABLE@ $MOVE
+" dio.IN1_2_1121.rw" 192 {stPrivateListOfStrategyTags $TABLE@ $MOVE
+" dio.IN1_2_1120.rw" 191 {stPrivateListOfStrategyTags $TABLE@ $MOVE
+" dio.IN1_2_1119.rw" 190 {stPrivateListOfStrategyTags $TABLE@ $MOVE
+" dio.IN1_2_1118.rw" 189 {stPrivateListOfStrategyTags $TABLE@ $MOVE
+" dio.IN1_2_1117.rw" 188 {stPrivateListOfStrategyTags $TABLE@ $MOVE
+" dio.IN1_2_1116.rw" 187 {stPrivateListOfStrategyTags $TABLE@ $MOVE
+" dio.IN1_2_1115.rw" 186 {stPrivateListOfStrategyTags $TABLE@ $MOVE
+" dio.IN1_2_1114.rw" 185 {stPrivateListOfStrategyTags $TABLE@ $MOVE
+" dio.IN1_2_1113.rw" 184 {stPrivateListOfStrategyTags $TABLE@ $MOVE
+" dio.IN1_2_1112.rw" 183 {stPrivateListOfStrategyTags $TABLE@ $MOVE
+" dio.IN1_2_1111.rw" 182 {stPrivateListOfStrategyTags $TABLE@ $MOVE
+" dio.IN1_2_1110.rw" 181 {stPrivateListOfStrategyTags $TABLE@ $MOVE
+" dio.IN1_2_1109.rw" 180 {stPrivateListOfStrategyTags $TABLE@ $MOVE
+" dio.IN1_2_1108.rw" 179 {stPrivateListOfStrategyTags $TABLE@ $MOVE
+" dio.IN1_2_1107.rw" 178 {stPrivateListOfStrategyTags $TABLE@ $MOVE
+" dio.IN1_2_1106.rw" 177 {stPrivateListOfStrategyTags $TABLE@ $MOVE
+" dio.IN1_2_1105.rw" 176 {stPrivateListOfStrategyTags $TABLE@ $MOVE
+" dio.IN1_2_1104.rw" 175 {stPrivateListOfStrategyTags $TABLE@ $MOVE
+" dio.IN1_2_1103.rw" 174 {stPrivateListOfStrategyTags $TABLE@ $MOVE
+" dio.IN1_2_1102.rw" 173 {stPrivateListOfStrategyTags $TABLE@ $MOVE
+" dio.IN1_2_1101.rw" 172 {stPrivateListOfStrategyTags $TABLE@ $MOVE
+" dio.IN1_2_1100.rw" 171 {stPrivateListOfStrategyTags $TABLE@ $MOVE
+" dio.IN1_2_1023.rw" 170 {stPrivateListOfStrategyTags $TABLE@ $MOVE
+" dio.IN1_2_1022.rw" 169 {stPrivateListOfStrategyTags $TABLE@ $MOVE
+" dio.IN1_2_1021.rw" 168 {stPrivateListOfStrategyTags $TABLE@ $MOVE
+" dio.IN1_2_1020.rw" 167 {stPrivateListOfStrategyTags $TABLE@ $MOVE
+" dio.IN1_2_1019.rw" 166 {stPrivateListOfStrategyTags $TABLE@ $MOVE
+" dio.IN1_2_1018.rw" 165 {stPrivateListOfStrategyTags $TABLE@ $MOVE
+" dio.IN1_2_1017.rw" 164 {stPrivateListOfStrategyTags $TABLE@ $MOVE
+" dio.IN1_2_1016.rw" 163 {stPrivateListOfStrategyTags $TABLE@ $MOVE
+" dio.IN1_2_1015.rw" 162 {stPrivateListOfStrategyTags $TABLE@ $MOVE
+" dio.IN1_2_1014.rw" 161 {stPrivateListOfStrategyTags $TABLE@ $MOVE
+" dio.IN1_2_1013.rw" 160 {stPrivateListOfStrategyTags $TABLE@ $MOVE
+" dio.IN1_2_1012.rw" 159 {stPrivateListOfStrategyTags $TABLE@ $MOVE
+" dio.IN1_2_1011.rw" 158 {stPrivateListOfStrategyTags $TABLE@ $MOVE
+" dio.IN1_2_1010.rw" 157 {stPrivateListOfStrategyTags $TABLE@ $MOVE
+" dio.IN1_2_1009.rw" 156 {stPrivateListOfStrategyTags $TABLE@ $MOVE
+" dio.IN1_2_1008.rw" 155 {stPrivateListOfStrategyTags $TABLE@ $MOVE
+" dio.IN1_2_1007.rw" 154 {stPrivateListOfStrategyTags $TABLE@ $MOVE
+" dio.IN1_2_1006.rw" 153 {stPrivateListOfStrategyTags $TABLE@ $MOVE
+" dio.IN1_2_1005.rw" 152 {stPrivateListOfStrategyTags $TABLE@ $MOVE
+" dio.IN1_2_1004.rw" 151 {stPrivateListOfStrategyTags $TABLE@ $MOVE
+" dio.IN1_2_1003.rw" 150 {stPrivateListOfStrategyTags $TABLE@ $MOVE
+" dio.IN1_2_1002.rw" 149 {stPrivateListOfStrategyTags $TABLE@ $MOVE
+" dio.IN1_2_1001.rw" 148 {stPrivateListOfStrategyTags $TABLE@ $MOVE
+" dio.IN1_2_1000.rw" 147 {stPrivateListOfStrategyTags $TABLE@ $MOVE
+" dio.IN1_2_0923.rw" 146 {stPrivateListOfStrategyTags $TABLE@ $MOVE
+" dio.IN1_2_0922.rw" 145 {stPrivateListOfStrategyTags $TABLE@ $MOVE
+" dio.IN1_2_0921.rw" 144 {stPrivateListOfStrategyTags $TABLE@ $MOVE
+" dio.IN1_2_0920.rw" 143 {stPrivateListOfStrategyTags $TABLE@ $MOVE
+" dio.IN1_2_0919.rw" 142 {stPrivateListOfStrategyTags $TABLE@ $MOVE
+" dio.IN1_2_0918.rw" 141 {stPrivateListOfStrategyTags $TABLE@ $MOVE
+" dio.IN1_2_0917.rw" 140 {stPrivateListOfStrategyTags $TABLE@ $MOVE
+" dio.IN1_2_0916.rw" 139 {stPrivateListOfStrategyTags $TABLE@ $MOVE
+" dio.IN1_2_0915.rw" 138 {stPrivateListOfStrategyTags $TABLE@ $MOVE
+" dio.IN1_2_0914.rw" 137 {stPrivateListOfStrategyTags $TABLE@ $MOVE
+" dio.IN1_2_0913.rw" 136 {stPrivateListOfStrategyTags $TABLE@ $MOVE
+" dio.IN1_2_0912.rw" 135 {stPrivateListOfStrategyTags $TABLE@ $MOVE
+" dio.IN1_2_0911.rw" 134 {stPrivateListOfStrategyTags $TABLE@ $MOVE
+" dio.IN1_2_0910.rw" 133 {stPrivateListOfStrategyTags $TABLE@ $MOVE
+" dio.IN1_2_0909.rw" 132 {stPrivateListOfStrategyTags $TABLE@ $MOVE
+" dio.IN1_2_0908.rw" 131 {stPrivateListOfStrategyTags $TABLE@ $MOVE
+" dio.IN1_2_0907.rw" 130 {stPrivateListOfStrategyTags $TABLE@ $MOVE
+" dio.IN1_2_0906.rw" 129 {stPrivateListOfStrategyTags $TABLE@ $MOVE
+" dio.IN1_2_0905.rw" 128 {stPrivateListOfStrategyTags $TABLE@ $MOVE
+" dio.IN1_2_0904.rw" 127 {stPrivateListOfStrategyTags $TABLE@ $MOVE
+" dio.IN1_2_0903.rw" 126 {stPrivateListOfStrategyTags $TABLE@ $MOVE
+" dio.IN1_2_0902.rw" 125 {stPrivateListOfStrategyTags $TABLE@ $MOVE
+" dio.IN1_2_0901.rw" 124 {stPrivateListOfStrategyTags $TABLE@ $MOVE
+" dio.IN1_2_0900.rw" 123 {stPrivateListOfStrategyTags $TABLE@ $MOVE
+" dio.IN1_2_0823.rw" 122 {stPrivateListOfStrategyTags $TABLE@ $MOVE
+" dio.IN1_2_0822.rw" 121 {stPrivateListOfStrategyTags $TABLE@ $MOVE
+" dio.IN1_2_0821.rw" 120 {stPrivateListOfStrategyTags $TABLE@ $MOVE
+" dio.IN1_2_0820.rw" 119 {stPrivateListOfStrategyTags $TABLE@ $MOVE
+" dio.IN1_2_0819.rw" 118 {stPrivateListOfStrategyTags $TABLE@ $MOVE
+" dio.IN1_2_0818.rw" 117 {stPrivateListOfStrategyTags $TABLE@ $MOVE
+" dio.IN1_2_0817.rw" 116 {stPrivateListOfStrategyTags $TABLE@ $MOVE
+" dio.IN1_2_0816.rw" 115 {stPrivateListOfStrategyTags $TABLE@ $MOVE
+" dio.IN1_2_0815.rw" 114 {stPrivateListOfStrategyTags $TABLE@ $MOVE
+" dio.IN1_2_0814.rw" 113 {stPrivateListOfStrategyTags $TABLE@ $MOVE
+" dio.IN1_2_0813.rw" 112 {stPrivateListOfStrategyTags $TABLE@ $MOVE
+" dio.IN1_2_0812.rw" 111 {stPrivateListOfStrategyTags $TABLE@ $MOVE
+" dio.IN1_2_0811.rw" 110 {stPrivateListOfStrategyTags $TABLE@ $MOVE
+" dio.IN1_2_0810.rw" 109 {stPrivateListOfStrategyTags $TABLE@ $MOVE
+" dio.IN1_2_0809.rw" 108 {stPrivateListOfStrategyTags $TABLE@ $MOVE
+" dio.IN1_2_0808.rw" 107 {stPrivateListOfStrategyTags $TABLE@ $MOVE
+" dio.IN1_2_0807.rw" 106 {stPrivateListOfStrategyTags $TABLE@ $MOVE
+" dio.IN1_2_0806.rw" 105 {stPrivateListOfStrategyTags $TABLE@ $MOVE
+" dio.IN1_2_0805.rw" 104 {stPrivateListOfStrategyTags $TABLE@ $MOVE
+" dio.IN1_2_0804.rw" 103 {stPrivateListOfStrategyTags $TABLE@ $MOVE
+" dio.IN1_2_0803.rw" 102 {stPrivateListOfStrategyTags $TABLE@ $MOVE
+" dio.IN1_2_0802.rw" 101 {stPrivateListOfStrategyTags $TABLE@ $MOVE
+" dio.IN1_2_0801.rw" 100 {stPrivateListOfStrategyTags $TABLE@ $MOVE
+" dio.IN1_2_0800.rw" 99 {stPrivateListOfStrategyTags $TABLE@ $MOVE
+" dio.IN1_2_0723.rw" 98 {stPrivateListOfStrategyTags $TABLE@ $MOVE
+" dio.IN1_2_0722.rw" 97 {stPrivateListOfStrategyTags $TABLE@ $MOVE
+" dio.IN1_2_0721.rw" 96 {stPrivateListOfStrategyTags $TABLE@ $MOVE
+" dio.IN1_2_0720.rw" 95 {stPrivateListOfStrategyTags $TABLE@ $MOVE
+" dio.IN1_2_0719.rw" 94 {stPrivateListOfStrategyTags $TABLE@ $MOVE
+" dio.IN1_2_0718.rw" 93 {stPrivateListOfStrategyTags $TABLE@ $MOVE
+" dio.IN1_2_0717.rw" 92 {stPrivateListOfStrategyTags $TABLE@ $MOVE
+" dio.IN1_2_0716.rw" 91 {stPrivateListOfStrategyTags $TABLE@ $MOVE
+" dio.IN1_2_0715.rw" 90 {stPrivateListOfStrategyTags $TABLE@ $MOVE
+" dio.IN1_2_0714.rw" 89 {stPrivateListOfStrategyTags $TABLE@ $MOVE
+" dio.IN1_2_0713.rw" 88 {stPrivateListOfStrategyTags $TABLE@ $MOVE
+" dio.IN1_2_0712.rw" 87 {stPrivateListOfStrategyTags $TABLE@ $MOVE
+" dio.IN1_2_0711.rw" 86 {stPrivateListOfStrategyTags $TABLE@ $MOVE
+" dio.IN1_2_0710.rw" 85 {stPrivateListOfStrategyTags $TABLE@ $MOVE
+" dio.IN1_2_0709.rw" 84 {stPrivateListOfStrategyTags $TABLE@ $MOVE
+" dio.IN1_2_0708.rw" 83 {stPrivateListOfStrategyTags $TABLE@ $MOVE
+" dio.IN1_2_0707.rw" 82 {stPrivateListOfStrategyTags $TABLE@ $MOVE
+" dio.IN1_2_0706.rw" 81 {stPrivateListOfStrategyTags $TABLE@ $MOVE
+" dio.IN1_2_0705.rw" 80 {stPrivateListOfStrategyTags $TABLE@ $MOVE
+" dio.IN1_2_0704.rw" 79 {stPrivateListOfStrategyTags $TABLE@ $MOVE
+" dio.IN1_2_0703.rw" 78 {stPrivateListOfStrategyTags $TABLE@ $MOVE
+" dio.IN1_2_0702.rw" 77 {stPrivateListOfStrategyTags $TABLE@ $MOVE
+" dio.IN1_2_0701.rw" 76 {stPrivateListOfStrategyTags $TABLE@ $MOVE
+" dio.IN1_2_0700.rw" 75 {stPrivateListOfStrategyTags $TABLE@ $MOVE
+" dio.IN1_2_0623.rw" 74 {stPrivateListOfStrategyTags $TABLE@ $MOVE
+" dio.IN1_2_0622.rw" 73 {stPrivateListOfStrategyTags $TABLE@ $MOVE
+" dio.IN1_2_0621.rw" 72 {stPrivateListOfStrategyTags $TABLE@ $MOVE
+" dio.IN1_2_0620.rw" 71 {stPrivateListOfStrategyTags $TABLE@ $MOVE
+" dio.IN1_2_0619.rw" 70 {stPrivateListOfStrategyTags $TABLE@ $MOVE
+" dio.IN1_2_0618.rw" 69 {stPrivateListOfStrategyTags $TABLE@ $MOVE
+" dio.IN1_2_0617.rw" 68 {stPrivateListOfStrategyTags $TABLE@ $MOVE
+" dio.IN1_2_0616.rw" 67 {stPrivateListOfStrategyTags $TABLE@ $MOVE
+" dio.IN1_2_0615.rw" 66 {stPrivateListOfStrategyTags $TABLE@ $MOVE
+" dio.IN1_2_0614.rw" 65 {stPrivateListOfStrategyTags $TABLE@ $MOVE
+" dio.IN1_2_0613.rw" 64 {stPrivateListOfStrategyTags $TABLE@ $MOVE
+" dio.IN1_2_0612.rw" 63 {stPrivateListOfStrategyTags $TABLE@ $MOVE
+" dio.IN1_2_0611.rw" 62 {stPrivateListOfStrategyTags $TABLE@ $MOVE
+" dio.IN1_2_0610.rw" 61 {stPrivateListOfStrategyTags $TABLE@ $MOVE
+" dio.IN1_2_0609.rw" 60 {stPrivateListOfStrategyTags $TABLE@ $MOVE
+" dio.IN1_2_0608.rw" 59 {stPrivateListOfStrategyTags $TABLE@ $MOVE
+" dio.IN1_2_0607.rw" 58 {stPrivateListOfStrategyTags $TABLE@ $MOVE
+" dio.IN1_2_0606.rw" 57 {stPrivateListOfStrategyTags $TABLE@ $MOVE
+" dio.IN1_2_0605.rw" 56 {stPrivateListOfStrategyTags $TABLE@ $MOVE
+" dio.IN1_2_0604.rw" 55 {stPrivateListOfStrategyTags $TABLE@ $MOVE
+" dio.IN1_2_0603.rw" 54 {stPrivateListOfStrategyTags $TABLE@ $MOVE
+" dio.IN1_2_0602.rw" 53 {stPrivateListOfStrategyTags $TABLE@ $MOVE
+" dio.IN1_2_0601.rw" 52 {stPrivateListOfStrategyTags $TABLE@ $MOVE
+" dio.IN1_2_0600.rw" 51 {stPrivateListOfStrategyTags $TABLE@ $MOVE
+" dio.IN1_2_0523.rw" 50 {stPrivateListOfStrategyTags $TABLE@ $MOVE
+" dio.IN1_2_0522.rw" 49 {stPrivateListOfStrategyTags $TABLE@ $MOVE
+" dio.IN1_2_0521.rw" 48 {stPrivateListOfStrategyTags $TABLE@ $MOVE
+" dio.IN1_2_0520.rw" 47 {stPrivateListOfStrategyTags $TABLE@ $MOVE
+" dio.IN1_2_0519.rw" 46 {stPrivateListOfStrategyTags $TABLE@ $MOVE
+" dio.IN1_2_0518.rw" 45 {stPrivateListOfStrategyTags $TABLE@ $MOVE
+" dio.IN1_2_0517.rw" 44 {stPrivateListOfStrategyTags $TABLE@ $MOVE
+" dio.IN1_2_0516.rw" 43 {stPrivateListOfStrategyTags $TABLE@ $MOVE
+" dio.IN1_2_0515.rw" 42 {stPrivateListOfStrategyTags $TABLE@ $MOVE
+" dio.IN1_2_0514.rw" 41 {stPrivateListOfStrategyTags $TABLE@ $MOVE
+" dio.IN1_2_0513.rw" 40 {stPrivateListOfStrategyTags $TABLE@ $MOVE
+" dio.IN1_2_0512.rw" 39 {stPrivateListOfStrategyTags $TABLE@ $MOVE
+" dio.IN1_2_0511.rw" 38 {stPrivateListOfStrategyTags $TABLE@ $MOVE
+" dio.IN1_2_0510.rw" 37 {stPrivateListOfStrategyTags $TABLE@ $MOVE
+" dio.IN1_2_0509.rw" 36 {stPrivateListOfStrategyTags $TABLE@ $MOVE
+" dio.IN1_2_0508.rw" 35 {stPrivateListOfStrategyTags $TABLE@ $MOVE
+" dio.IN1_2_0507.rw" 34 {stPrivateListOfStrategyTags $TABLE@ $MOVE
+" dio.IN1_2_0506.rw" 33 {stPrivateListOfStrategyTags $TABLE@ $MOVE
+" dio.IN1_2_0505.rw" 32 {stPrivateListOfStrategyTags $TABLE@ $MOVE
+" dio.IN1_2_0504.rw" 31 {stPrivateListOfStrategyTags $TABLE@ $MOVE
+" dio.IN1_2_0503.rw" 30 {stPrivateListOfStrategyTags $TABLE@ $MOVE
+" dio.IN1_2_0502.rw" 29 {stPrivateListOfStrategyTags $TABLE@ $MOVE
+" dio.IN1_2_0501.rw" 28 {stPrivateListOfStrategyTags $TABLE@ $MOVE
+" dio.IN1_2_0500.rw" 27 {stPrivateListOfStrategyTags $TABLE@ $MOVE
+" dio.IN1_2_0423.rw" 26 {stPrivateListOfStrategyTags $TABLE@ $MOVE
+" dio.IN1_2_0422.rw" 25 {stPrivateListOfStrategyTags $TABLE@ $MOVE
+" dio.IN1_2_0421.rw" 24 {stPrivateListOfStrategyTags $TABLE@ $MOVE
+" dio.IN1_2_0420.rw" 23 {stPrivateListOfStrategyTags $TABLE@ $MOVE
+" dio.IN1_2_0419.rw" 22 {stPrivateListOfStrategyTags $TABLE@ $MOVE
+" dio.IN1_2_0418.rw" 21 {stPrivateListOfStrategyTags $TABLE@ $MOVE
+" dio.IN1_2_0417.rw" 20 {stPrivateListOfStrategyTags $TABLE@ $MOVE
+" dio.IN1_2_0416.rw" 19 {stPrivateListOfStrategyTags $TABLE@ $MOVE
+" dio.IN1_2_0415.rw" 18 {stPrivateListOfStrategyTags $TABLE@ $MOVE
+" dio.IN1_2_0414.rw" 17 {stPrivateListOfStrategyTags $TABLE@ $MOVE
+" dio.IN1_2_0413.rw" 16 {stPrivateListOfStrategyTags $TABLE@ $MOVE
+" dio.IN1_2_0412.rw" 15 {stPrivateListOfStrategyTags $TABLE@ $MOVE
+" dio.IN1_2_0411.rw" 14 {stPrivateListOfStrategyTags $TABLE@ $MOVE
+" dio.IN1_2_0410.rw" 13 {stPrivateListOfStrategyTags $TABLE@ $MOVE
+" dio.IN1_2_0409.rw" 12 {stPrivateListOfStrategyTags $TABLE@ $MOVE
+" dio.IN1_2_0408.rw" 11 {stPrivateListOfStrategyTags $TABLE@ $MOVE
+" dio.IN1_2_0407.rw" 10 {stPrivateListOfStrategyTags $TABLE@ $MOVE
+" dio.IN1_2_0406.rw" 9 {stPrivateListOfStrategyTags $TABLE@ $MOVE
+" dio.IN1_2_0405.rw" 8 {stPrivateListOfStrategyTags $TABLE@ $MOVE
+" dio.IN1_2_0404.rw" 7 {stPrivateListOfStrategyTags $TABLE@ $MOVE
+" dio.IN1_2_0403.rw" 6 {stPrivateListOfStrategyTags $TABLE@ $MOVE
+" dio.IN1_2_0402.rw" 5 {stPrivateListOfStrategyTags $TABLE@ $MOVE
+" dio.IN1_2_0401.rw" 4 {stPrivateListOfStrategyTags $TABLE@ $MOVE
+" dio.IN1_2_0400.rw" 3 {stPrivateListOfStrategyTags $TABLE@ $MOVE
+" dio.IN1_2.rw" 2 {stPrivateListOfStrategyTags $TABLE@ $MOVE
+" dio.IN1_1.rw" 1 {stPrivateListOfStrategyTags $TABLE@ $MOVE
+" dio.IN1_0.rw" 0 {stPrivateListOfStrategyTags $TABLE@ $MOVE
  " " *_HSV_INIT_IO $MOVE
 ;
 T: T_INIT_IO
